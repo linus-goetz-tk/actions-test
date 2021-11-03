@@ -11,5 +11,5 @@ jobs:
         steps:
             -uses: actions/checkout@v2
             -name: run sag-hallo
-             run: ././sag-hallo.bat
+             run: ./.sag-hallo.bat
              shell: cmd
