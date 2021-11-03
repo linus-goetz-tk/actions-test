@@ -3,6 +3,9 @@ on:
     workflow_dispatch:
    
 jobs:
+    example-job:
+        steps:
+            - run: npm install -g bats
     print:
         runs-on: ubuntu-latest
         steps:
