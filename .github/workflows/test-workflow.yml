@@ -1,0 +1,11 @@
+name: workflow1
+on:
+    workflow_dispatch:
+   
+   jobs:
+    print:
+        runs-on: ubuntu-latest
+        steps:
+            -uses: actions/checkout@v2
+            -name: run sag-hallo
+            run: sag-hallo
